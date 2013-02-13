@@ -3,6 +3,7 @@ layout: post
 title: "Badass LAMP stack in 10 minutes"
 date: 2013-02-12 14:06
 comments: true
+permalink: /blog/2013/02/12/badass-lamp-stack-10-minutes/
 categories: 
 - LAMP
 - Ubuntu

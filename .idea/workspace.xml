@@ -2,53 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="812ab4f0-e240-4b58-b366-d7d91cb15b55" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.themes/BlogTheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitmodules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/favicon.png" afterPath="$PROJECT_DIR$/source/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/line-tile.png" afterPath="$PROJECT_DIR$/source/images/line-tile.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_base.scss" afterPath="$PROJECT_DIR$/sass/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_layout.scss" afterPath="$PROJECT_DIR$/sass/base/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_theme.scss" afterPath="$PROJECT_DIR$/sass/base/_theme.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_typography.scss" afterPath="$PROJECT_DIR$/sass/base/_typography.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/base/_utilities.scss" afterPath="$PROJECT_DIR$/sass/base/_utilities.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/custom/_colors.scss" afterPath="$PROJECT_DIR$/sass/custom/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/custom/_styles.scss" afterPath="$PROJECT_DIR$/sass/custom/_styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_archive.scss" afterPath="$PROJECT_DIR$/sass/partials/_archive.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_blog.scss" afterPath="$PROJECT_DIR$/sass/partials/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_footer.scss" afterPath="$PROJECT_DIR$/sass/partials/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_header.scss" afterPath="$PROJECT_DIR$/sass/partials/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_navigation.scss" afterPath="$PROJECT_DIR$/sass/partials/_navigation.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_syntax.scss" afterPath="$PROJECT_DIR$/sass/partials/_syntax.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/sidebar/_base.scss" afterPath="$PROJECT_DIR$/sass/partials/sidebar/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="$PROJECT_DIR$/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/after_footer.html" afterPath="$PROJECT_DIR$/source/_includes/after_footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/archive_post.html" afterPath="$PROJECT_DIR$/source/_includes/archive_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/article.html" afterPath="$PROJECT_DIR$/source/_includes/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/after_footer.html" afterPath="$PROJECT_DIR$/source/_includes/custom/after_footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/asides/about.html" afterPath="$PROJECT_DIR$/source/_includes/custom/asides/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/footer.html" afterPath="$PROJECT_DIR$/source/_includes/custom/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/head.html" afterPath="$PROJECT_DIR$/source/_includes/custom/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/header.html" afterPath="$PROJECT_DIR$/source/_includes/custom/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/custom/navigation.html" afterPath="$PROJECT_DIR$/source/_includes/custom/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/google_analytics.html" afterPath="$PROJECT_DIR$/source/_includes/google_analytics.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/_posts/2013-02-12-hello-world.markdown" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/head.html" afterPath="$PROJECT_DIR$/source/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/header.html" afterPath="$PROJECT_DIR$/source/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/navigation.html" afterPath="$PROJECT_DIR$/source/_includes/navigation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/post/categories.html" afterPath="$PROJECT_DIR$/source/_includes/post/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_includes/post/sharing.html" afterPath="$PROJECT_DIR$/source/_includes/post/sharing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/category_index.html" afterPath="$PROJECT_DIR$/source/_layouts/category_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/default.html" afterPath="$PROJECT_DIR$/source/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/page.html" afterPath="$PROJECT_DIR$/source/_layouts/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_layouts/post.html" afterPath="$PROJECT_DIR$/source/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2013-02-12-hello-world.markdown" afterPath="$PROJECT_DIR$/source/_posts/2013-02-12-hello-world.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/blog/archives/index.html" afterPath="$PROJECT_DIR$/source/blog/archives/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.html" afterPath="$PROJECT_DIR$/source/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/ender.js" afterPath="$PROJECT_DIR$/source/javascripts/ender.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/github.js" afterPath="$PROJECT_DIR$/source/javascripts/github.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/libs/ender.js" afterPath="$PROJECT_DIR$/source/javascripts/libs/ender.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/pinboard.js" afterPath="$PROJECT_DIR$/source/javascripts/pinboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/javascripts/twitter.js" afterPath="$PROJECT_DIR$/source/javascripts/twitter.js" />
     </list>
     <ignored path="octopress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,16 +55,16 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.125">
+            <state line="3" column="24" selection-start="118" selection-end="134" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="108" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-6.875">
+            <state line="4" column="98" selection-start="149" selection-end="149" vertical-scroll-proportion="0.18181819">
               <folding />
             </state>
           </provider>
@@ -118,16 +73,16 @@
       <file leaf-file-name="_config.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="screen.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21918" selection-start="21918" selection-end="21918" vertical-scroll-proportion="0.0">
+            <state line="0" column="21918" selection-start="21918" selection-end="21918" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -165,10 +120,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/source/_includes/custom/header.html" />
-        <option value="$PROJECT_DIR$/source/_includes/head.html" />
         <option value="$PROJECT_DIR$/source/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/stylesheets/screen.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/source/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -251,43 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="octopress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fabric" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,13 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="108" selection-start="1047" selection-end="1047" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_includes/custom/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -455,23 +367,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_includes/header.html">
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="193" selection-end="193" vertical-scroll-proportion="-3.125">
+        <state line="0" column="21918" selection-start="21918" selection-end="21918" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylesheets/screen.css">
+    <entry file="file://$PROJECT_DIR$/source/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21918" selection-start="21918" selection-end="21918" vertical-scroll-proportion="0.0">
+        <state line="3" column="24" selection-start="118" selection-end="134" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="98" selection-start="149" selection-end="149" vertical-scroll-proportion="0.18181819">
           <folding />
         </state>
       </provider>
