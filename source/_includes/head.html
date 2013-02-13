@@ -8,6 +8,9 @@
 	<meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
 	{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% if page.og_image %}<meta property="og:image" content="{{ page.og_image }}"/>
+    {% else %}<meta property="og:image" content="http://bangbanghacker.co/images/bangbanghacker_logo.png"/>
+    {% endif %}
 
 	<link href="{{ site.subscribe_rss }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
 	<link rel="canonical" href="{{ canonical }}">
@@ -23,7 +26,7 @@
     <script type="text/javascript" src="{{ root_url }}/javascripts/jquery-tapir.js"></script>
 
     <!-- remove or comment it to disable ajaxification -->   
-    <script src="/javascripts/ajaxify.js"></script>
+    <script type="text/javascript" src="{{ root_url }}/javascripts/ajaxify.js"></script>
    
     {% include custom/head.html %}
 </head>
