@@ -83,10 +83,10 @@ Me: Oh, okay. I should buy one.
 or expressed in ruby
 
 ```
-if defined? max_hat				 // does max have a hat
-	return location(max_hat)		// get the hat's location
-else								// otherwise
-	return "you don't own a hat!"	// tell him he doesn't own a hat
+if defined? max_hat				 # does max have a hat
+	return location(max_hat)		# get the hat's location
+else								# otherwise
+	return "you don't own a hat!"	# tell him he doesn't own a hat
 
 ```
 
@@ -97,15 +97,15 @@ So now we have logical conditions and a pre-logical state. This can't be good…
 
 
 ```
-> nonexistence = nil	// So nonexistence doesn't exist
+> nonexistence = nil	# So nonexistence doesn't exist
 
-> puts nonexistence		// Printing nonexistence gives us nothing. cool.
+> puts nonexistence		# Printing nonexistence gives us nothing. cool.
 
-> puts !nonexistence 	// Printing the "not nonexistence"
-true					// gives us something…and it's true. ok, i guess.
+> puts !nonexistence 	# Printing the "not nonexistence"
+true					# gives us something…and it's true. ok, i guess.
 
-> puts !!nonexistence	// Printing the "not not nonexistence"
-false					// gives us something…and it's false. wat?
+> puts !!nonexistence	# Printing the "not not nonexistence"
+false					# gives us something…and it's false. wat?
 ```
 
 And this, my friends is where Gorgias (and many others included the [Sophists](http://en.wikipedia.org/wiki/Sophist)) found their footing. If you apply the pre-logical constructs of existence within the conditionals of logic…everything falls apart. Logic validates existing statements, but we find ourselves with validation of a non-existent state. WTF?
