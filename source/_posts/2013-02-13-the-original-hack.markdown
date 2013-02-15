@@ -64,20 +64,22 @@ With the above dependencies met, we can use logic with the basic states of TRUE 
 Everything is beautiful… and then… 
 
 ## The rise of the NOTHING thing
-Logic simply evaluates operators and conditions of statements to determine TRUE/FALSE states. That said, when language developed, shortcomings of logic alone became apparent. Logic relies of immutable states, but we observe states of existence/non-existence as well. An argument arose that continues today over the objective nature of change in the universe. (See [Heraclitus](http://en.wikipedia.org/wiki/Heraclitus) and [Parmenides](http://en.wikipedia.org/wiki/Parmenides))
+So, logic evaluates operators and conditions of statements to determine TRUE/FALSE states. When language developed, shortcomings of logic became apparent. While logic relied on immutable states, we observed a another mode or state that was changing, a basic representation being existence/nonexistence. A thing may "be" and then "not be" or vice-versa, or any sort chain of be/not/be/not/be/not states.  
 
-Regardless, constructs in language developed underneath logical operations to convey a pre-logical state of not yet being defined or "existing".
+Linguistically we adopted this status and formed the sentiments of existence/nonexistence all while an argument arose that continues today over the objective nature of state change in the universe. (See [Heraclitus](http://en.wikipedia.org/wiki/Heraclitus) and [Parmenides](http://en.wikipedia.org/wiki/Parmenides))
+
+The language constructs developed underneath previous logical operations to convey this sub-logical mode of not yet being defined or "existing".
 
 Commonly this is called *nothingness*, *non-existence*, etc.
 
 In programming this is expressed as *undefined*, *null*, *nil*, *None*
 
-In practice, the term seems helpful as it allows the expression of a state that cannot have logical conditions or operations applied to it.
+In practice, the mode seems helpful as it allows the expression of a state that cannot have logical conditions or operations applied to it.
 
 ```
 Me: Where is my hat, Christina?
 Christina: Max, you don't own a hat.
-Me: Oh, okay. I should buy one.
+Me: Oh, okay.
 ```
 
 or expressed in ruby
@@ -90,10 +92,10 @@ else								# otherwise
 
 ```
 
-It may seem that `defined?`, `nil?`, `isset()` and other sorts of methods in programming are just more advanced operators, but they are not. They are checks that apply to a pre-logic state, the state of existence.
+It may seem that `defined?`, `nil?`, `isset()` and other sorts of methods in programming are just more advanced operators, but they are not. They are checks that apply to a sub-logic state, the state of existence.
 
 ## Hacking (Non)Existence
-So now we have logical conditions and a pre-logical state. This can't be good…and historically it really isn't. What we get can best be explained in code:
+However, in common practice in programming, math, philosophy (etc) we find ourselves with logical conditions and operators beginning to mix into a sub-logical mode. It's not clear when or how we began this concoction of mis-matched expressions, but it has been around as long as we can remember. A good way to examine this use of disperate items is in code:
 
 
 ```
@@ -108,7 +110,7 @@ true					# gives us something…and it's true. ok, i guess.
 false					# gives us something…and it's false. wat?
 ```
 
-And this, my friends is where Gorgias (and many others included the [Sophists](http://en.wikipedia.org/wiki/Sophist)) found their footing. If you apply the pre-logical constructs of existence within the conditionals of logic…everything falls apart. Logic validates existing statements, but we find ourselves with validation of a non-existent state. WTF?
+And this is where Gorgias (and many others included the [Sophists](http://en.wikipedia.org/wiki/Sophist)) found their footing. If you apply the pre-logical constructs of existence within the conditionals of logic…everything falls apart. Logic validates existing statements, but we find ourselves with validation of a non-existent mode. WTF?
 
 It's a hack, a really old hack, possibly the first hack.
 
