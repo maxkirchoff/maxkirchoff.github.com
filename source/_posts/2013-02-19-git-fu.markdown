@@ -1,0 +1,22 @@
+---
+author: max
+layout: post
+title: "Git Fu for Beginners"
+date: 2013-02-19 09:16
+comments: true
+categories: 
+- GIT
+- GitHUB
+
+---
+
+When I started at [ShopIgniter](http://www.shopigniter.com/), I had never used [Git](http://git-scm.com/) before. I saw it used on open-source projects and admired the web UI of Git on [GitHub](http://github.com/). Previously I only worked in [SVN](http://en.wikipedia.org/wiki/Apache_Subversion) on large client projects as version control wasn't a big concern when building simple web sites. I played around with Git and didn't understand the paradigm shift from SVN in workflows. The distributed nature of Git or the similar names of things (like 'branches') that acted differently in each system confounded my inability to understand.
+
+As I joined the engineering team at ShopIgniter, [Steven](https://github.com/slindberg) and [Andrew](https://github.com/onewheelskyward) quickly brought me up to speed on Git. With a few mentors to explain the nuances in Git, they had me cloning, branching, rebasing, committing, and pushing in the first day. In my first week I had easily negotiated a merge-conflict (similar conflicts were absolute nightmares for me in SVN). Before I knew it, Git made more sense than SVN ever did.
+
+Since then I've taught myself to start a Git repository for every piece of code I write - big or small. Whether I'm working on a huge SaaS app or building a landing page for a friend, there is a repo.
+
+### Beginning with Git
+If you're a disciplined, patient coder, check out [Pro Git](http://git-scm.com/book) to get yourself started.
+
+If you're like me and terribly impatient with technical instructions [Peter Cottle](https://github.com/pcottle) started a great project called [LearnGitBranching](http://pcottle.github.com/learnGitBranching/) that I saw today.
