@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GIT | unused]]></title>
+  <link href="http://bangbanghacker.co/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://bangbanghacker.co/"/>
+  <updated>2013-03-14T13:33:52-07:00</updated>
+  <id>http://bangbanghacker.co/</id>
+  <author>
+    <name><![CDATA[Max Kirchoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Git Fu for Beginners]]></title>
+    <link href="http://bangbanghacker.co/git-fu/"/>
+    <updated>2013-02-19T09:16:00-08:00</updated>
+    <id>http://bangbanghacker.co/git-fu</id>
+    <content type="html"><![CDATA[<p>When I started at <a href="http://www.shopigniter.com/">ShopIgniter</a>, I had never used <a href="http://git-scm.com/">Git</a> before. I saw it used on open-source projects and admired the web UI of Git on <a href="http://github.com/">GitHub</a>. Previously I only worked in <a href="http://en.wikipedia.org/wiki/Apache_Subversion">SVN</a> on large client projects as version control wasn't a big concern when building simple web sites. I played around with Git and didn't understand the paradigm shift from SVN in workflows. The distributed nature of Git or the similar names of things (like 'branches') that acted differently in each system confounded my inability to understand.</p>
+
+<p>As I joined the engineering team at ShopIgniter, <a href="https://github.com/slindberg">Steven</a> and <a href="https://github.com/onewheelskyward">Andrew</a> quickly brought me up to speed on Git. With a few mentors to explain the nuances in Git, they had me cloning, branching, rebasing, committing, and pushing in the first day. In my first week I had easily negotiated a merge-conflict (similar conflicts were absolute nightmares for me in SVN). Before I knew it, Git made more sense than SVN ever did.</p>
+
+<p>Since then I've taught myself to start a Git repository for every piece of code I write - big or small. Whether I'm working on a huge SaaS app or building a landing page for a friend, there is a repo.</p>
+
+<h3>Beginning with Git</h3>
+
+<p>If you're a disciplined, patient coder, check out <a href="http://git-scm.com/book">Pro Git</a> to get yourself started.</p>
+
+<p>If you're like me and terribly impatient with technical instructions <a href="https://github.com/pcottle">Peter Cottle</a> started a great project called <a href="http://pcottle.github.com/learnGitBranching/">LearnGitBranching</a> that I saw today.</p>
+]]></content>
+  </entry>
+  
+</feed>

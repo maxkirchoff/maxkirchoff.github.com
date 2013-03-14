@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: The Cloud | unused]]></title>
+  <link href="http://bangbanghacker.co/blog/categories/the-cloud/atom.xml" rel="self"/>
+  <link href="http://bangbanghacker.co/"/>
+  <updated>2013-03-14T13:33:52-07:00</updated>
+  <id>http://bangbanghacker.co/</id>
+  <author>
+    <name><![CDATA[Max Kirchoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Cloud. It's full of crap.]]></title>
+    <link href="http://bangbanghacker.co/the-cloud-its-full-of-crap/"/>
+    <updated>2013-03-14T13:17:00-07:00</updated>
+    <id>http://bangbanghacker.co/the-cloud-its-full-of-crap</id>
+    <content type="html"><![CDATA[<p>While I don't really want to polute my tech/philsoosphy/entrepreneurial thoughts with every gag I come across, I thought there was one project in particular that deserved some mention. After all, I spent about an hour laughing after install it - and continue to be amused.</p>
+
+<p>The project is a Chrome extension that <a href="https://github.com/panicsteve/cloud-to-butt">converts 'The Cloud' to 'My Butt'</a> in any text on a web page you're viewing.</p>
+
+<p>There are many similar projects that do everything from converting pronoun genders to hiding photos of babies - but this was especially meaningful to me for two reasons. 1) I'm pretty sure that 99% of the time "the cloud" is used when talking about tech, the person has no idea what that means and 2) butts MUST be the subject of some of the oldest jokes in human history.</p>
+
+<p>This Chrome extension isn't "formally approved" so you'll have to install it manually. To do this: Download the extension from the link above, open your Extension window/view in Chrome and drag the downloaded extension file into that window.</p>
+
+<p>Then enjoy. (ReadWriteWeb loves "the cloud", so they have lots of gems - <a href="http://readwrite.com/2011/11/21/how_to_store_your_files_in_the_cloud">How To Store Your Files in The Cloud</a>)</p>
+
+<p>(One of the best/worsts I've seen yet)
+<img src="https://lh6.googleusercontent.com/-j7V-Ooh553o/UUIxTyXNTvI/AAAAAAABVfw/ODxXbOEvTeo/s672/cloud-butt.png"></p>
+]]></content>
+  </entry>
+  
+</feed>

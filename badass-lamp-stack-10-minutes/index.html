@@ -1,0 +1,207 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Badass LAMP stack in 10 minutes - &#33;&#33;hacker, Max Kirchoff's notes</title>
+    <meta name="author" content="Max Kirchoff">
+    
+	<meta name="description" content="While lamenting my personal VPS today, Sam nonchalantly mentioned the hot new DigitalOcean that was being vetted on hacker news as a suitable &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="http://bangbanghacker.co/images/bangbanghacker_logo.png"/>
+    
+
+	<link href="/atom.xml" rel="alternate" title="unused" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.ico" rel="shortcut icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+
+    <!-- remove or comment it to disable ajaxification -->   
+    <script type="text/javascript" src="/javascripts/ajaxify.js"></script>
+   
+    
+</head>
+
+
+<body>
+    <div id="wrapper">
+    <header id="header" class="inner"><!-- for more effects see _animate.scss -->
+<div class="animated bounceInDown">
+    <h1 class="headertitles">
+        &#33;&#33;hacker
+        </h1>
+        <h4 class="headertitles">WTF is a software engineer anyway?</h4>
+    </div>
+<br>
+
+<ul id="social-links" style="text-align:center">
+  
+  <!-- GitHub -->
+  <li>
+  <a href="https://github.com/maxkirchoff" class="github" title="Github"></a>
+  </li>
+  
+  
+  <!-- Google Plus -->
+  <li>
+  <a href="http://plus.google.com/max@maxisnow.com?rel=author" class="google" title="Google+"></a>
+  </li>
+  
+  
+  <!-- Facebook -->
+  <li>
+  <a href="http://www.facebook.com/maxisnow" class="facebook" title="Facebook"></a>
+  </li>
+  
+  
+  <!-- Twitter -->
+  <li>
+  <a href="http://www.twitter.com/maxisnow" class="twitter" title="Twitter"></a>
+  </li>
+  
+  
+  
+  
+  
+</ul>
+
+
+<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<ul id="nav">
+	<li id="ajax"><a href="/index.html">Home</a></li>
+	<li id="ajax"><a href="/blog/archives/index.html">Archives</a></li>
+    <li><a href="/atom.xml">RSS</a></li>
+    
+    <li>
+    <div id="dark">
+        <form method="get" action="/search.html" id="search">
+            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
+        </form>
+    </div>
+    </li>
+        
+</ul>
+
+
+
+
+</header>
+
+<div id="toload">
+<!-- begin toload --> 
+    <div id="content" class="inner">
+        <article class="post">
+	<h2 class="title">Badass LAMP Stack in 10 Minutes</h2>
+	<div class="entry-content"><p>While lamenting my personal VPS today, <a href="https://github.com/samkeen">Sam</a> nonchalantly mentioned the hot new <a href="https://www.digitalocean.com/">DigitalOcean</a> that was being vetted on <a href="http://news.ycombinator.com/item?id=5207162">hacker news</a> as a suitable challenger to <a href="http://www.linode.com/">Linode</a>. Ignoring Sam&#8217;s recommendations is a geek &#8220;faux pas&#8221; as he&#8217;s the <em>go-to early adopter</em> of cool projects and services. As such, I jammed over to <strong>DigitalOcean&#8217;s</strong> site to sign up.</p>
+
+<p>Their Trial Account option had been locked down due to the massive response they were recieving - probably a mixture of <strong>&#8220;cha-ching!&#8221;</strong> for thier business team and <strong>&#8220;oh shit!&#8221;</strong> for their tech team.</p>
+
+<h3>$5 Server Value Meal</h3>
+
+<p>By providing a credit card I was able to get an account on their smallest machine at a meager $5/mo. Yes, $5. Five bucks. For the price of commuting to work on the train for one day, I got a SSD server.</p>
+
+<p>To backup a little, if you&#8217;re not familiar with Linode, DigitalOcean, or that class of VPS service, these are the perfect place for small projects, blogs, simple sites, and beta testing grounds for new ideas. They offer actual server ownership so you can configure and deploy MANY types of systems and stacks without cost of bigger services or the overhead of fulltime system administration.</p>
+
+<h3>Server Building in 10 minutes</h3>
+
+<p>Right away DigitalOcean&#8217;s admin UI made sense to me. Create a Droplet (just think of this as a server for now), take snapshots of a Droplet, manage DNS, manage billing.</p>
+
+<p>My initial Droplet was configured as such:</p>
+
+<ul>
+<li>Droplet Size: 512MB RAM, 1 CPU , 20GB SSD Disk</li>
+<li>Droplet Location: New York</li>
+<li>Droplet Image (OS): Ubuntu 12.10</li>
+</ul>
+
+
+<p>With these selections I could replicate my Linode VPS and quickly get my code moving. Build and boot of my Droplet was roughly <strong>55 seconds</strong> (just as they advertise).</p>
+
+<p>I didn&#8217;t follow their <a href="https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04">Ubuntu setup guide</a>, but it&#8217;s really well written. If you don&#8217;t know much about managing servers, please read and follow ALL their docs…you will be sorry if you don&#8217;t.</p>
+
+<p>They emailed me a root password along with a note that my Droplet had been built. I generated some SSH keys and shoved the public key onto the server. I also disabled the password login for root, all about <strong>2 minutes</strong>.</p>
+
+<p>I ssh&#8217;d in, updated my system, and started grabbing all the packages I needed. Disk write speeds and downloads were crazy fast. I had apache2, mysql, php5 and all the modules I could carry in about <strong>7 minutes</strong>.</p>
+
+<p>They offer a great <a href="https://www.digitalocean.com/community/articles/how-to-launch-your-site-on-a-new-ubuntu-12-04-server-with-lamp-sftp-and-dns">LAMP on Ubuntu guide</a> as well.</p>
+
+<p>I added some folders to <code>/srv/www</code> for my sites, configured the vhosts and away we went. Empty Droplet to functioning LAMP stack in 10 minutes flat.</p>
+
+<h3>Take a Snapshot, it will last longer</h3>
+
+<p>As with Linode and a few others, backups are available in addition to images. However in DigitalOcean the snapshot/image workflow made more sense to me. Once I had finished my initial LAMP stack setup, I was able to take a snapshot in the admin. With that snapshot I could deploy that image over and over. Obviously with a regular ol&#8217; LAMP stack this isn&#8217;t all that innovative, however with more complicated configurations that involve varying access security and addons (php modules, ruby gems, python dependencies) in a given server environment.
+This also has obvious uses around scaling across multiple Droplets as well.</p>
+
+<p>That&#8217;s all. Functioning, replicable server is 10 minutes. :P</p>
+</div>
+
+<div class="meta">
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+    </div>
+    <footer id="footer">
+    <div style="display:inline">
+    Copyright &copy; 2013
+
+    Max Kirchoff
+. Powered by <a href="http://octopress.org">Octopress</a> | 
+    Theme <a href="http://github.com/panks/fabric">fabric</a> by <a href="http://panks.me">Pankaj Kumar</a>
+</div>
+
+
+    </footer>
+    <script src="/javascripts/fabric.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+
+
+<!-- end toload --> 
+</div>
+</div>
+<script src="/javascripts/jquery.ui.totop.js" type="text/javascript"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){$().UItoTop({easingType:'easeOutCirc'});})(jQuery); 
+/*]]>*/
+</script><!-- remove it to remove the scroll to top button -->
+</body>
+</html>

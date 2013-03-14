@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hack | unused]]></title>
+  <link href="http://bangbanghacker.co/blog/categories/hack/atom.xml" rel="self"/>
+  <link href="http://bangbanghacker.co/"/>
+  <updated>2013-03-14T13:33:52-07:00</updated>
+  <id>http://bangbanghacker.co/</id>
+  <author>
+    <name><![CDATA[Max Kirchoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Original Hack - "!!"]]></title>
+    <link href="http://bangbanghacker.co/the-original-hack/"/>
+    <updated>2013-02-13T14:06:00-08:00</updated>
+    <id>http://bangbanghacker.co/the-original-hack</id>
+    <content type="html"><![CDATA[<p>Metaphysical nihilism is a funny thing. Most major philosophical and religious doctrine revoke non-existence as a "non quality" of both the material and immaterial worlds. Non-existence is not a logical case that can be validated. In other words, one cannot say "there is not" without referencing a subject. <code>!</code> <code>¬</code> or <code>~</code> (all roughly symbolizing negation or NOT-ness) require application to a subject. However, in defining an argument to metaphysical nihilism, we inherently say that no subject exists - thus undermining the basic operation.</p>
+
+<p>None of this is new thinking. It's been around forever and philosophers have beaten each other up for it in every age.
+The <a href="http://en.wikipedia.org/wiki/Monism">Monists</a> set up a reality where all substances can be reduced to one substance. This reality became the foundation for
+<a href="http://en.wikipedia.org/wiki/Gorgias">Gorgias</a>, an early thinker dealing with "non-existence", to reduce that single, immutable substance to a non-substance or nothingness.</p>
+
+<blockquote><p>(1)Nothing exists, or (2)if it does exist we cannot know it, or (3)if we can know it it is impossible to communicate it.</p></blockquote>
+
+<p>Convincing right? Yea, didn't think so.
+So what's wrong with the above thought? Let's try to rewrite it in python:</p>
+
+<h4>Proposition 1</h4>
+
+<p><code>
+! # there is NOT
+</code>
+<strong>ERROR!</strong></p>
+
+<h4>Proposition 2 &amp; 3</h4>
+
+<p>```
+if !!</p>
+
+<pre><code>print !! # if there's NOT NOT, then we can print it
+</code></pre>
+
+<p>```
+<strong>ERROR!</strong></p>
+
+<p>So, python doesn't get us anywhere. Neither will Javascript, Ruby or PHP. Hell, symbolic logic and math will fail us as well.
+Why?</p>
+
+<h2>The dependencies of logic</h2>
+
+<p>Logic has few dependencies, but they are <strong>hugely important</strong> and are the basis of every language (natural or otherwise).</p>
+
+<ul>
+<li><strong>Operators are universally the same</strong> <em>(i.e. AND, OR, NOT always act the same)</em></li>
+<li><strong>a given State is universally the same</strong> <em>(TRUE is always TRUE)</em></li>
+</ul>
+
+
+<p>With the above dependencies met, we can use logic with the basic states of TRUE AND FALSE.</p>
+
+<p><code>IF TRUE THEN TRUE</code></p>
+
+<p><code>IF NOT TRUE THEN FALSE</code></p>
+
+<p><code>IF FALSE AND NOT TRUE THEN FALSE</code></p>
+
+<p>Everything is beautiful… and then…</p>
+
+<h2>The rise of the NOTHING thing</h2>
+
+<p>So, logic evaluates operators and conditions of statements to determine TRUE/FALSE states. When language developed, shortcomings of logic became apparent. While logic relied on immutable states, we observed a another mode or state that was changing, a basic representation being existence/nonexistence. A thing may "be" and then "not be" or vice-versa, or any sort chain of be/not/be/not/be/not states.</p>
+
+<p>Linguistically we adopted this status and formed the sentiments of existence/nonexistence all while an argument arose that continues today over the objective nature of state change in the universe. (See <a href="http://en.wikipedia.org/wiki/Heraclitus">Heraclitus</a> and <a href="http://en.wikipedia.org/wiki/Parmenides">Parmenides</a>)</p>
+
+<p>The language constructs developed underneath previous logical operations to convey this sub-logical mode of not yet being defined or "existing".</p>
+
+<p>Commonly this is called <em>nothingness</em>, <em>non-existence</em>, etc.</p>
+
+<p>In programming this is expressed as <em>undefined</em>, <em>null</em>, <em>nil</em>, <em>None</em></p>
+
+<p>In practice, the mode seems helpful as it allows the expression of a state that cannot have logical conditions or operations applied to it.</p>
+
+<p><code>
+Me: Where is my hat, Christina?
+Christina: Max, you don't own a hat.
+Me: Oh, okay.
+</code></p>
+
+<p>or expressed in ruby</p>
+
+<p>```
+if defined? max_hat              # does max have a hat</p>
+
+<pre><code>return location(max_hat)        # get the hat's location
+</code></pre>
+
+<p>else                                # otherwise</p>
+
+<pre><code>return "you don't own a hat!"   # tell him he doesn't own a hat
+</code></pre>
+
+<p>```</p>
+
+<p>It may seem that <code>defined?</code>, <code>nil?</code>, <code>isset()</code> and other sorts of methods in programming are just more advanced operators, but they are not. They are checks that apply to a sub-logic state, the state of existence.</p>
+
+<h2>Hacking (Non)Existence</h2>
+
+<p>However, in common practice in programming, math, philosophy (etc) we find ourselves with logical conditions and operators beginning to mix into a sub-logical mode. It's not clear when or how we began this concoction of mis-matched expressions, but it has been around as long as we can remember. A good way to examine this use of disperate items is in code:</p>
+
+<p>```</p>
+
+<blockquote><p>nonexistence = nil    # So nonexistence doesn't exist</p>
+
+<p>puts nonexistence     # Printing nonexistence gives us nothing. cool.</p>
+
+<p>puts !nonexistence    # Printing the "not nonexistence"
+true                    # gives us something…and it's true. ok, i guess.</p>
+
+<p>puts !!nonexistence   # Printing the "not not nonexistence"
+false                   # gives us something…and it's false. wat?
+```</p></blockquote>
+
+<p>And this is where Gorgias (and many others included the <a href="http://en.wikipedia.org/wiki/Sophist">Sophists</a>) found their footing. If you apply the pre-logical constructs of existence within the conditionals of logic…everything falls apart. Logic validates existing statements, but we find ourselves with validation of a non-existent mode. WTF?</p>
+
+<p>It's a hack, a really old hack, possibly the first hack.</p>
+
+<p>Somehow we went from ordered operators and conditions, to a disordered reality of invalid universal states. If !!nonexistence can be false (signifying inherent existence) then nonexistence itself exists.</p>
+
+<p>Seriously, WTF?</p>
+
+<p>We are left to wonder then, if logic can be hacked, can it be broken?</p>
+]]></content>
+  </entry>
+  
+</feed>

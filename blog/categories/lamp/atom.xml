@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: LAMP | unused]]></title>
+  <link href="http://bangbanghacker.co/blog/categories/lamp/atom.xml" rel="self"/>
+  <link href="http://bangbanghacker.co/"/>
+  <updated>2013-03-14T13:33:52-07:00</updated>
+  <id>http://bangbanghacker.co/</id>
+  <author>
+    <name><![CDATA[Max Kirchoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Badass LAMP stack in 10 minutes]]></title>
+    <link href="http://bangbanghacker.co/badass-lamp-stack-10-minutes/"/>
+    <updated>2013-02-12T14:06:00-08:00</updated>
+    <id>http://bangbanghacker.co/badass-lamp-stack-10-minutes</id>
+    <content type="html"><![CDATA[<p>While lamenting my personal VPS today, <a href="https://github.com/samkeen">Sam</a> nonchalantly mentioned the hot new <a href="https://www.digitalocean.com/">DigitalOcean</a> that was being vetted on <a href="http://news.ycombinator.com/item?id=5207162">hacker news</a> as a suitable challenger to <a href="http://www.linode.com/">Linode</a>. Ignoring Sam's recommendations is a geek "faux pas" as he's the <em>go-to early adopter</em> of cool projects and services. As such, I jammed over to <strong>DigitalOcean's</strong> site to sign up.</p>
+
+<p>Their Trial Account option had been locked down due to the massive response they were recieving - probably a mixture of <strong>"cha-ching!"</strong> for thier business team and <strong>"oh shit!"</strong> for their tech team.</p>
+
+<h3>$5 Server Value Meal</h3>
+
+<p>By providing a credit card I was able to get an account on their smallest machine at a meager $5/mo. Yes, $5. Five bucks. For the price of commuting to work on the train for one day, I got a SSD server.</p>
+
+<p>To backup a little, if you're not familiar with Linode, DigitalOcean, or that class of VPS service, these are the perfect place for small projects, blogs, simple sites, and beta testing grounds for new ideas. They offer actual server ownership so you can configure and deploy MANY types of systems and stacks without cost of bigger services or the overhead of fulltime system administration.</p>
+
+<h3>Server Building in 10 minutes</h3>
+
+<p>Right away DigitalOcean's admin UI made sense to me. Create a Droplet (just think of this as a server for now), take snapshots of a Droplet, manage DNS, manage billing.</p>
+
+<p>My initial Droplet was configured as such:</p>
+
+<ul>
+<li>Droplet Size: 512MB RAM, 1 CPU , 20GB SSD Disk</li>
+<li>Droplet Location: New York</li>
+<li>Droplet Image (OS): Ubuntu 12.10</li>
+</ul>
+
+
+<p>With these selections I could replicate my Linode VPS and quickly get my code moving. Build and boot of my Droplet was roughly <strong>55 seconds</strong> (just as they advertise).</p>
+
+<p>I didn't follow their <a href="https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04">Ubuntu setup guide</a>, but it's really well written. If you don't know much about managing servers, please read and follow ALL their docs…you will be sorry if you don't.</p>
+
+<p>They emailed me a root password along with a note that my Droplet had been built. I generated some SSH keys and shoved the public key onto the server. I also disabled the password login for root, all about <strong>2 minutes</strong>.</p>
+
+<p>I ssh'd in, updated my system, and started grabbing all the packages I needed. Disk write speeds and downloads were crazy fast. I had apache2, mysql, php5 and all the modules I could carry in about <strong>7 minutes</strong>.</p>
+
+<p>They offer a great <a href="https://www.digitalocean.com/community/articles/how-to-launch-your-site-on-a-new-ubuntu-12-04-server-with-lamp-sftp-and-dns">LAMP on Ubuntu guide</a> as well.</p>
+
+<p>I added some folders to <code>/srv/www</code> for my sites, configured the vhosts and away we went. Empty Droplet to functioning LAMP stack in 10 minutes flat.</p>
+
+<h3>Take a Snapshot, it will last longer</h3>
+
+<p>As with Linode and a few others, backups are available in addition to images. However in DigitalOcean the snapshot/image workflow made more sense to me. Once I had finished my initial LAMP stack setup, I was able to take a snapshot in the admin. With that snapshot I could deploy that image over and over. Obviously with a regular ol' LAMP stack this isn't all that innovative, however with more complicated configurations that involve varying access security and addons (php modules, ruby gems, python dependencies) in a given server environment.
+This also has obvious uses around scaling across multiple Droplets as well.</p>
+
+<p>That's all. Functioning, replicable server is 10 minutes. :P</p>
+]]></content>
+  </entry>
+  
+</feed>
