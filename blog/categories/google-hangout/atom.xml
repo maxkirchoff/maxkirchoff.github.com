@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Google Hangout | unused]]></title>
+  <link href="http://bangbanghacker.co/blog/categories/google-hangout/atom.xml" rel="self"/>
+  <link href="http://bangbanghacker.co/"/>
+  <updated>2013-04-08T11:11:04-07:00</updated>
+  <id>http://bangbanghacker.co/</id>
+  <author>
+    <name><![CDATA[Max Kirchoff]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Recurring Google+ Hangout with the same URL]]></title>
+    <link href="http://bangbanghacker.co/recurring-google-plus-hangout-with-the-same-url/"/>
+    <updated>2013-04-08T10:26:00-07:00</updated>
+    <id>http://bangbanghacker.co/recurring-google-plus-hangout-with-the-same-url</id>
+    <content type="html"><![CDATA[<p>Two weeks from today I will begin a new experiment - working remotely from SF. Participating in our daily <a href="http://en.wikipedia.org/wiki/Stand-up_meeting">Stand-up meeting</a> at 9am is a SUPER priority, and as a Lead Engineer it is instrumental to my duties.</p>
+
+<p>Under great pressure from <a href="https://plus.google.com/103846222472267112072">Christina</a> (my wife the Googler), I started looking through the Google+ Hangout docs. Her and I use Hangouts regularly since she's in SF without me for now, and the video/sound quality has always impressed me. Right away I found that there was no easy way to setup or hack an automated Hangout into happening.  However I found that Google had integrated Hangouts into Google Calendar. Basically, you are able to create a Hangout for all invitees of a meeting and the Hangout/URL are pre-generated when the invite is sent out. This reserves the URL for all future use.</p>
+
+<p>I read in a few places about <a href="http://blog.singly.com/2012/07/09/from-itch-to-scratched-google-hangout-permalink/">creating an event in the far future and re-using that reserved Hangout URL</a> - but this sounded like a breakable idea.</p>
+
+<p>The kernel idea was good though, and I tried something next that really did work well - I created a recurring 9am Stand-up meeting on my calendar (that went on "forever") and added a Google+ Hangout to the event. This did the trick.
+The Hangout URL wasn't just pre-generated for each meeting, but the SAME URL was used every time. This reserved our Stand-up meeting Hangout URL basically forever.</p>
+
+<p>Kudos Google!</p>
+]]></content>
+  </entry>
+  
+</feed>
